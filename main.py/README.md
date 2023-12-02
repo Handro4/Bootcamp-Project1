@@ -9,7 +9,7 @@
 
 ### 1. Does gender affect pricing?
 ### 2. Does insurance provider or geography affect pricing rates?
-### 3. What trends can be discovered by analyzing the age of patients across the dataset?
+### 3. How does age affect a patient's length of stay, medical condition, prescribed medication, and price?
    In the healthcare world a patient’s age can be used to make a large number of predictions. Knowing a patient’s age can assist healthcare professionals in a number of ways including medical diagnosis, provided treatment, and estimated recovery time. We wanted to analyze the information based on a patient’s age to see if we could uncover trends to help inform decisions. For this analysis we mainly used our Healthcare Dataset
 
 * To start our analysis of this question we created bins for the various age ranges we wanted to analyze. The bins we chose for our analysis were 18-30, 30-45, 45-60, 60-75, 75-90. We chose those age ranges because our dataset didn't have any records for patients less than 18 and greater than 90 years old. Once we added these bins to our dataframe we performed a quick analysis to identify the age ranges with the most and least records. The age range with the most records was 45-60 (2225 records), while the age range with the least records was 75-90 (1446 records). We just highlighted the age ranges that had the most and least number of records, but this information could be used by healthcare professionals to predict the number of patients per age range they may receive in a given period. \
