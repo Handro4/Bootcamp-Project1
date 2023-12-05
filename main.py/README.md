@@ -2,14 +2,19 @@
 
 ## Introduction
 
-## Datasets Analyzed
-   In this analysis we reviewed two different datasets we found on Kaggle. The first dataset we have referred to as the Healthcare Dataset (https://www.kaggle.com/datasets/prasad22/healthcare-dataset). This dataset consists of 10,000 rows each representing a patient's healthcare record. The information included in the dataset includes patient data, admission dates, and healthcare services provided. This was the main dataset we used in our analysis. We chose this dataset because it provided a lot of depth to each healthcare record. An important thing to note is that this is a synthetic dataset that was created for analytical use. This has resulted in a lot of the data being randomized which made it difficult to draw meaningful insights. The second dataset we used we have referred to as the Insurance Dataset (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/). This dataset consists of 1300+ rows each representing a medical claim. We were interested in this dataset as it contains information on the relationship between personal attributes and medical insurance charges that wasn't present in the previous dataset. We were hoping to eventually merge the datasets together, but they were ultimately unrelated. This is also a synthetic dataset that was created for analytical use. 
+### Datasets Analyzed
+   #### In this analysis we reviewed two different datasets we found on Kaggle. 
+   
+   * The first dataset we have referred to as the Healthcare Dataset
+(https://www.kaggle.com/datasets/prasad22/healthcare-dataset). This dataset consists of 10,000 rows each representing a patient's healthcare record. The information included in the dataset includes patient data, admission dates, and healthcare services provided. This was the main dataset we used in our analysis. We chose this dataset because it provided a lot of depth to each healthcare record. An important thing to note is that this is a synthetic dataset that was created for analytical use. This has resulted in a lot of the data being randomized which made it difficult to draw meaningful insights.
+
+   * The second dataset we used we have referred to as the Insurance Dataset (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/). This dataset consists of 1300+ rows each representing a medical claim. We were interested in this dataset as it contains information on the relationship between personal attributes and medical insurance charges that wasn't present in the previous dataset. We were hoping to eventually merge the datasets together, but they were ultimately unrelated. This is also a synthetic dataset that was created for analytical use. 
 
 ## Analysis and write up
 
 # Question 1 
 
-## 1. Does gender affect pricing?
+## Does gender affect pricing?
 
 ### What differences can we see by gender?
 
@@ -115,7 +120,58 @@ What stands on this chart is the most commonly medication used per age range (18
 
 * Finally, we performed an analysis on the relationship between Age and the Amount Charged. For this analysis we used the Insurance Dataset as we wanted to see the effect age has on the amount the insured is actually billed not what is billed to insurance provider as is the case in the first dataset. We used a scatter plot to plot the difference ages we found in the dataset against the amount they were charged. On top of that we performed linear regression to see if we could find the correlation between age and the amount charged to potentially be able to predict what someone may be charged based on their age (see Figure 15 below). \
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Age_vs_Amount_Charged.png) \
-Looking at the chart we can see Age plotted across the x-axis and Amount Charged plotted on the y-axis. You can see that the linear regression line is pretty flat and the r-value is roughly .30. This r-value would indicate that the correlation between Age and Amount Charged is slightly positive, but not very strong. The r-value is closer to 0 than it is 1 indicating that there is not a very strong correlation between Age and Amount Charged. This mean that as age increases there is a weak indication that the amount charged will also increase.This could be explained by there being a very large variety of amounts charged across age ranges that make it difficult to relate these two datapoints together. Regardless, it's clear that age does not have a large effect on the amount charged. 
+Looking at the chart we can see Age plotted across the x-axis and Amount Charged plotted on the y-axis. You can see that the linear regression line is pretty flat and the r-value is roughly .30. This r-value would indicate that the correlation between Age and Amount Charged is slightly positive, but not very strong. The r-value is closer to 0 than it is 1 indicating that there is not a very strong correlation between Age and Amount Charged. This mean that as age increases there is a weak indication that the amount charged will also increase.This could be explained by there being a very large variety of amounts charged across age ranges that make it difficult to relate these two datapoints together. Regardless, it's clear that age does not have a large effect on the amount charged.
+
+# Question 4
+
+## How does smoking affect billing?
+
+### Analysis Question 4.A 
+
+#### We wanted to analyze if smoking status would affect the billing rates to patients from their insurance provider and then validate whether the difference in billing rates had any statistical significance. 
+
+* Using a t-test we analyzed the significance in difference in billings rates from insurance provider to patients who smoke and those who are non-smokers. 
+
+   * We found that non-smokers on average were billed $8,434 per insurance claim.
+
+   * We found that smokers on average were billed $32,050 per insurance claim.  
+
+* The T-Test resulted in a pvalue=5.88946444671698e-103
+  
+   * We concluded that the T-Test results show enough significance to reject the Null Hypothesis and accept the Alternative Hypothesis
+
+![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Charges_Smoker_vs_Non-Smoker.png)
+
+### Analysis Question 4.B 
+
+* We wanted to further analyze billing rate trends for smokers and non-smokers by their insurance providers, and specifically if there is any variance by regions.
+  
+   * In earlier questions, (1.D and 2.C) we see an increase in billing rates for the southeast region of the united states. While in earlier questions we see an increase in the male population (1.B) as well as an increase in average patient BMI (2.C) as possible contributing factors for increased billing rates, in figure 14 we also see an increase in the overall smoking population in the southeast region as well.
+     
+   * This increase in smokers is a variable that may contribute to the higher patient billing rates we see in this region compared to the rest of the united states.
+
+![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Smoking_Status_Per_Region.png) 
+
+## Conclusion
+
+#### Synthetic datasets made it difficult to find any meaningful insights in our analysis.
+
+#### Key takeaways: 
+
+* There is a clear trend for increased billing rates among all ages and genders in the southeast region of the United States (insurance dataset).
+  
+   * Increased male population in the southeast may be a contributing factor to higher billing rates.
+     
+   * Higher average BMI in the population of the southeast region is another possible contributor to the higher billing rate trend seen throughout our analysis.
+     
+* Most of the patients (68%) in our dataset were between the ages of 32-71.
+  
+   * This could indicate people younger than 30 visit hospitals less frequently. (good health)
+     
+   * There are most likely less people over 75 due to lower population rates. (mortality)
+     
+* Most significant finding was the effect that smoking had on medical insurance charges.
+  
 
 ### 4. How does smoking affect billing?
 
