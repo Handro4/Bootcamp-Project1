@@ -19,19 +19,19 @@
 ### What differences can we see by gender?
 
 ### Background
-Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts. \
+* Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts. \
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Medical_Condition_Gender.png) \
 
 ### Analysis Question 1.A
 #### How does gender affect pricing (healthcare dataset)?
-To understand higher billing amounts, we compared mean billing amounts across genders:
-- Female: $25,484
-- Male:   $25,550
+* To understand higher billing amounts, we compared mean billing amounts across genders:
+   * - Female: $25,484
+   * - Male:   $25,550
 
 #### How does gender affect pricing (insurance dataset)?
-No significant difference in billing amounts by gender in the healthcare dataset. Checked the insurance charges by geography dataset, finding:
-- Female: $12,569.58
-- Male:   $13,956.75 \
+* No significant difference in billing amounts by gender in the healthcare dataset. Checked the insurance charges by geography dataset, finding:
+   * - Female: $12,569.58
+   * - Male:   $13,956.75 \
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Average_Charges_Per_Gender.png) \
 
 ### Analysis Question 1.B
@@ -55,7 +55,7 @@ As no significant gender-based billing difference was found, we explored variabl
 
 ### Analysis Question 1.C
 #### How does region and gender count affect pricing?
-Plotted gender count distribution for each region (Figure 14), with the southeast region exhibiting the highest average cost. The elevated male count in the southeast region may influence the region's elevated average cost, contributing to increased male billing charges.### 2. Does insurance provider or geography affect pricing rates?\
+Plotted gender count distribution for each region (Figure 14), with the southeast region exhibiting the highest average cost. The elevated male count in the southeast region may influence the region's elevated average cost, contributing to increased male billing charges.\
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Gender_Counts_per_Region.png) \
 
 # Question 2
@@ -63,10 +63,10 @@ Plotted gender count distribution for each region (Figure 14), with the southeas
 ## How does insurance provider and geography affect pricing rates?
 
 ### Background
-Healthcare providers negotiate contracts with insurance companies, determining reimbursement rates. Rates vary between providers and facilities. We analyze data to explore relationships between insurance provider, geography, and billing amounts.
+* Healthcare providers negotiate contracts with insurance companies, determining reimbursement rates. Rates vary between providers and facilities. We analyze data to explore relationships between insurance provider, geography, and billing amounts.
 
 ### Analysis Question 2.A
-#### How does insurance provider affect pricing rates?
+
 Grouped by Medical Condition and Insurance Provider, calculated mean, minimum, and maximum billing amounts (head(5) info below):
 | Medical Condition | Insurance Provider | Mean Billing | Min Billing | Max Billing |
 |-------------------|--------------------|--------------|-------------|-------------|
@@ -81,16 +81,16 @@ Continued (head(5) info):
 | ... (other conditions) | ...            | ...          | ...         | ...         |
 
 #### How does insurance provider affect pricing rates?
-Explored maximum Billing Amount by Insurance Provider and Medical Condition, noting Aetna consistently having high billing amounts across various conditions.
+* Explored maximum Billing Amount by Insurance Provider and Medical Condition, noting Aetna consistently having high billing amounts across various conditions.
 
 ### Analysis Question 2.B
 #### How does geography affect pricing?
-Explored regional differences to understand the variance in billing rates. Graphed insurance dataset (Figure 10), finding highest billing in the Southeast region.\
+* Explored regional differences to understand the variance in billing rates. Graphed insurance dataset (Figure 10), finding highest billing in the Southeast region.\
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Average_Charges_Per_Region.png) \
 
 ### Analysis Question 2.C
 #### What else could contribute to the southeast region having higher rates?
-Checked if BMI (body mass index) is a factor in billing charges by location (Figure 9). Southeast region appears to have a higher BMI.\
+* Checked if BMI (body mass index) is a factor in billing charges by location (Figure 9). Southeast region appears to have a higher BMI.\
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Average_BMI_per_Region.png) \
 
 ### 3. How does age affect a patient's length of stay, medical condition, prescribed medication, and price?
