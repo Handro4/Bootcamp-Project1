@@ -1,6 +1,6 @@
 # Project 1 Assignment
 
-## Introduction
+# Introduction
 
 ### Datasets Analyzed
    #### In this analysis we reviewed two different datasets we found on Kaggle. 
@@ -10,13 +10,13 @@
 
    * The second dataset we used we have referred to as the Insurance Dataset (https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance/). This dataset consists of 1300+ rows each representing a medical claim. We were interested in this dataset as it contains information on the relationship between personal attributes and medical insurance charges that wasn't present in the previous dataset. We were hoping to eventually merge the datasets together, but they were ultimately unrelated. This is also a synthetic dataset that was created for analytical use. 
 
-## Analysis and write up
+# Analysis and write up
 
-# Question 1 
+## Question 1 
 
-## What trends can we analyze based on gender?
+### What trends can we analyze based on gender?
 
-### Background
+#### Background
 * Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts.
   
    ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Medical_Condition_Gender.png) 
@@ -63,11 +63,11 @@
 
    ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Gender_Counts_per_Region.png) 
 
-# Question 2
+## Question 2
 
-## How does insurance provider and geography affect pricing rates?
+### How does insurance provider and geography affect pricing rates?
 
-### Background
+#### Background
 
 * Healthcare providers negotiate contracts with insurance companies, determining reimbursement rates. Rates vary between providers and facilities. We analyze data to explore relationships between insurance provider, geography, and billing amounts.
 
@@ -108,11 +108,11 @@
   
    ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Average_BMI_per_Region.png) 
 
-# Question 3
+## Question 3
 
-## 3. How does age affect a patient's length of stay, medical condition, prescribed medication, and price?
+### 3. How does age affect a patient's length of stay, medical condition, prescribed medication, and price?
 
-### In the healthcare world a patient’s age can be used to make a large number of predictions. Knowing a patient’s age can assist healthcare professionals in a number of ways including medical diagnosis, provided treatment, and estimated recovery time. We wanted to analyze the information based on a patient’s age to see if we could uncover trends to help inform decisions. For this analysis we mainly used our Healthcare Dataset
+#### In the healthcare world a patient’s age can be used to make a large number of predictions. Knowing a patient’s age can assist healthcare professionals in a number of ways including medical diagnosis, provided treatment, and estimated recovery time. We wanted to analyze the information based on a patient’s age to see if we could uncover trends to help inform decisions. For this analysis we mainly used our Healthcare Dataset
 
 * To start our analysis of this question we created bins for the various age ranges we wanted to analyze. The bins we chose for our analysis were 18-30, 30-45, 45-60, 60-75, 75-90. We chose those age ranges because our dataset didn't have any records for patients less than 18 and greater than 90 years old. Once we added these bins to our dataframe we performed a quick analysis to identify the age ranges with the most and least records. The age range with the most records was 45-60 (2225 records), while the age range with the least records was 75-90 (1446 records). We just highlighted the age ranges that had the most and least number of records, but this information could be used by healthcare professionals to predict the number of patients per age range they may receive in a given period. 
 
@@ -148,9 +148,9 @@
 
     Looking at the chart we can see Age plotted across the x-axis and Amount Charged plotted on the y-axis. You can see that the linear regression line is pretty flat and the r-value is roughly .30. This r-value would indicate that the correlation between Age and Amount Charged is slightly positive, but not very strong. The r-value is closer to 0 than it is 1 indicating that there is not a very strong correlation between Age and Amount Charged. This mean that as age increases there is a weak indication that the amount charged will also increase.This could be explained by there being a very large variety of amounts charged across age ranges that make it difficult to relate these two datapoints together. Regardless, it's clear that age does not have a large effect on the amount charged.
 
-# Question 4
+## Question 4
 
-## How does smoking affect billing?
+#### How does smoking affect billing?
 
 ### Analysis Question 4.A 
 
@@ -180,9 +180,9 @@
 
 ## Conclusion
 
-#### Synthetic datasets made it difficult to find any meaningful insights in our analysis.
+### Synthetic datasets made it difficult to find any meaningful insights in our analysis.
 
-#### Key takeaways: 
+### Key takeaways: 
 
 * There is a clear trend for increased billing rates among all ages and genders in the southeast region of the United States (insurance dataset).
   
