@@ -14,7 +14,8 @@
 ### What differences can we see by gender?
 
 ### Background
-Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts.
+Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts. \
+![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Medical_Condition_Gender.png) \
 
 ### Analysis Question 1.A
 #### How does gender affect pricing (healthcare dataset)?
