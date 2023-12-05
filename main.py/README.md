@@ -7,8 +7,8 @@
 
 ## Analysis and write up
 
-# 1. Does gender affect pricing?
-## What differences can we see by gender?
+## 1. Does gender affect pricing?
+# What differences can we see by gender?
 
 ### Background
 Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts.
