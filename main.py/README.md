@@ -173,6 +173,3 @@ Looking at the chart we can see Age plotted across the x-axis and Amount Charged
 * Most significant finding was the effect that smoking had on medical insurance charges.
   
 
-### 4. How does smoking affect billing?
-
-## Conclusion
