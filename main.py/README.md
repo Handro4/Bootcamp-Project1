@@ -7,7 +7,7 @@
 
 ## Analysis and write up
 
-### 1. Does gender affect pricing?
+# 1. Does gender affect pricing?
 ## What differences can we see by gender?
 
 ### Background
