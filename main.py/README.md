@@ -15,13 +15,14 @@
 
 ### Background
 Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts. \
+
 ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Medical_Condition_Gender.png) \
 
 ### Analysis Question 1.A
 #### How does gender affect pricing (healthcare dataset)?
 To understand higher billing amounts, we compared mean billing amounts across genders:
 - Female: $25,484
-- Male: $25,550
+- Male:   $25,550
 
 #### How does gender affect pricing (insurance dataset)?
 No significant difference in billing amounts by gender in the healthcare dataset. Checked the insurance charges by geography dataset, finding:
