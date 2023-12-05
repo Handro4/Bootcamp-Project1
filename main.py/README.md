@@ -14,14 +14,12 @@
 
 # Question 1 
 
-## Does gender affect pricing?
-
-### What differences can we see by gender?
+## What trends can we analyze based on gender?
 
 ### Background
 * Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts.
   
-   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Medical_Condition_Gender.png) \
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Medical_Condition_Gender.png) 
 
 ### Analysis Question 1.A
 #### How does gender affect pricing (healthcare dataset)?
@@ -34,7 +32,7 @@
    * - Female: $12,569.58
    * - Male:   $13,956.75
        
-   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Average_Charges_Per_Gender.png) \
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Average_Charges_Per_Gender.png) 
 
 ### Analysis Question 1.B
 #### How does insurance provider affect pricing by gender?
@@ -55,7 +53,7 @@
 |                    | Male   | $25,617         |
 
 ### Figure 1
-   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Billing_Amount_by_Insurance_Provider_and_Gender.png) \
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Billing_Amount_by_Insurance_Provider_and_Gender.png) 
 
 ### Analysis Question 1.C
 
@@ -63,7 +61,7 @@
 
 * Plotted gender count distribution for each region (Figure 14), with the southeast region exhibiting the highest average cost. The elevated male count in the southeast region may influence the region's elevated average cost, contributing to increased male billing charges.
 
-   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Gender_Counts_per_Region.png) \
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Gender_Counts_per_Region.png) 
 
 # Question 2
 
