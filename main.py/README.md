@@ -7,8 +7,11 @@
 
 ## Analysis and write up
 
+# Question 1 
+
 ## 1. Does gender affect pricing?
-# What differences can we see by gender?
+
+### What differences can we see by gender?
 
 ### Background
 Some studies suggest gender-based differences in healthcare utilization, potentially leading to variations in billing amounts. Factors include health conditions, types of healthcare services, and reproductive health needs. Our healthcare dataset focuses on chronic conditions for both genders (Figure 8). Several studies explore gender's impact on healthcare quality and costs. We aim to identify relationships between gender and billing amounts.
@@ -43,6 +46,7 @@ As no significant gender-based billing difference was found, we explored variabl
 ### Analysis Question 1.C
 #### How does region and gender count affect pricing?
 Plotted gender count distribution for each region (Figure 14), with the southeast region exhibiting the highest average cost. The elevated male count in the southeast region may influence the region's elevated average cost, contributing to increased male billing charges.### 2. Does insurance provider or geography affect pricing rates?
+
 # Question 2
 
 ## How does insurance provider and geography affect pricing rates?
