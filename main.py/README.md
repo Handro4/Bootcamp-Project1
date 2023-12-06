@@ -261,7 +261,7 @@
      
    * Smoker average billing rate: 		   $32,050.00
 
-Next Steps:
+### Next Steps:
 
 * Find real world data to analyze
   
