@@ -231,7 +231,7 @@
 
 * We wanted to further analyze billing rate trends for smokers and non-smokers by their insurance providers, and specifically if there is any variance by regions.
   
-   * In earlier questions, (1.D and 2.C) we see an increase in billing rates for the southeast region of the united states. While in earlier questions we see an increase in the male population (1.B) as well as an increase in average patient BMI (2.C) as possible contributing factors for increased billing rates, in figure 14 we also see an increase in the overall smoking population in the southeast region as well.
+   * In earlier questions, (1.C and 2.C) we see an increase in billing rates for the southeast region of the united states. While in earlier questions we see an increase in the male population (1.C) as well as an increase in average patient BMI (2.C) as possible contributing factors for increased billing rates, in figure 14 we also see an increase in the overall smoking population in the southeast region as well.
      
    * This increase in smokers is a variable that may contribute to the higher patient billing rates we see in this region compared to the rest of the united states.
 
@@ -256,5 +256,16 @@
    * There are most likely less people over 75 due to lower population rates. (mortality)
      
 * Most significant finding was the effect that smoking had on medical insurance charges.
+  
+   * Non-Smoker average billing rate: 		$8,434.00
+     
+   * Smoker average billing rate: 		   $32,050.00
+
+Next Steps:
+
+* Find real world data to analyze
+  
+* Further explore smoking trends and effects on billing rates 
+
   
 
