@@ -266,6 +266,5 @@
 * Find real world data to analyze
   
 * Further explore smoking trends and effects on billing rates
-
   
 
