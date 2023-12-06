@@ -225,17 +225,17 @@
   
    * We concluded that the T-Test results show enough significance to reject the Null Hypothesis and accept the Alternative Hypothesis
 
-![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Charges_Smoker_vs_Non-Smoker.png)
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Charges_Smoker_vs_Non-Smoker.png)
 
 ### Analysis Question 4.B 
 
 * We wanted to further analyze billing rate trends for smokers and non-smokers by their insurance providers, and specifically if there is any variance by regions.
   
-   * In earlier questions, (1.D and 2.C) we see an increase in billing rates for the southeast region of the united states. While in earlier questions we see an increase in the male population (1.B) as well as an increase in average patient BMI (2.C) as possible contributing factors for increased billing rates, in figure 14 we also see an increase in the overall smoking population in the southeast region as well.
+   * In earlier questions, (1.C and 2.C) we see an increase in billing rates for the southeast region of the united states. While in earlier questions we see an increase in the male population (1.C) as well as an increase in average patient BMI (2.C) as possible contributing factors for increased billing rates, in figure 14 we also see an increase in the overall smoking population in the southeast region as well.
      
    * This increase in smokers is a variable that may contribute to the higher patient billing rates we see in this region compared to the rest of the united states.
 
-![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Smoking_Status_Per_Region.png) 
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Smoking_Status_Per_Region.png) 
 
 ## Conclusion
 
@@ -256,5 +256,16 @@
    * There are most likely less people over 75 due to lower population rates. (mortality)
      
 * Most significant finding was the effect that smoking had on medical insurance charges.
+  
+   * Non-Smoker average billing rate: 		$8,434.00
+     
+   * Smoker average billing rate: 		   $32,050.00
+
+Next Steps:
+
+* Find real world data to analyze
+  
+* Further explore smoking trends and effects on billing rates
+
   
 
