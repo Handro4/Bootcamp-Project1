@@ -225,7 +225,7 @@
   
    * We concluded that the T-Test results show enough significance to reject the Null Hypothesis and accept the Alternative Hypothesis
 
-![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Charges_Smoker_vs_Non-Smoker.png)
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Mean_Charges_Smoker_vs_Non-Smoker.png)
 
 ### Analysis Question 4.B 
 
@@ -235,7 +235,7 @@
      
    * This increase in smokers is a variable that may contribute to the higher patient billing rates we see in this region compared to the rest of the united states.
 
-![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Smoking_Status_Per_Region.png) 
+   ![alt text](https://github.com/Handro4/Bootcamp-Project1/blob/main/Images/Smoking_Status_Per_Region.png) 
 
 ## Conclusion
 
@@ -261,7 +261,7 @@
      
    * Smoker average billing rate: 		   $32,050.00
 
-Next Steps:
+### Next Steps:
 
 * Find real world data to analyze
   
